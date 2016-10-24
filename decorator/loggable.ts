@@ -91,7 +91,9 @@ Logger.log(
     )
 );
 
-Logger.log(new LevelAugmentationDecorator(
-    new Message('Servers are down'),
-    -20
+Logger.log(
+    new LevelAugmentationDecorator(
+        new Message('Servers are down'),
+        -20
+    )
 );
