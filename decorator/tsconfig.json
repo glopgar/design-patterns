@@ -1,6 +1,6 @@
 {
   "files": [
-    "src/loggable.ts"
+    "loggable.ts"
   ],
   "compilerOptions": {
     "noImplicitAny": true,
